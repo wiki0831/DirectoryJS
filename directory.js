@@ -1,192 +1,111 @@
-var sortedJSON, filteredJSON, filter, filterDept;
-filter = "";
-filterDept = "All Departments";
-var apiBaseURL = "https://api.pamplin.vt.edu/";
-//var apiEndpointPath = "edid/people.ashx";
-var apiEndpointPath = "v1/persons/directory?kind=pamplin";
+// This javascript file extract data from xml and inject the data into html.
+// author: weiqi yuan
+// version: 2018.09.24
+// bib: wiki0831.com
 
-// if ($('body').is('.directory')) {
-    var body = document.getElementsByClassName('vt-bodycol-content');
-    loadJSON();
-    filterJSON();
-    buildHTML();
-    console.log(5 + 6);
-
-// }
-
-function isIE() {
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
-    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
-    {
-        return True;
-    }
-    else  // If another browser, return 0
-    {
-        return False;
-    }
-}
-
-
-function loadJSON() {
-    var request = new XMLHttpRequest();
-    request.open("GET", apiBaseURL + apiEndpointPath, false);
-    request.send(null);
-    var dirJSON = JSON.parse(request.responseText);
-
-    sortedJSON = dirJSON.sort(function IHaveAName(a, b) { // non-anonymous as you ordered...
-        return b.sn < a.sn || (b.sn == a.sn && b.givenName < a.givenName) ? 1 // if b should come earlier, push a to end
-            : b.sn > a.sn || (b.sn == a.sn && b.givenName > a.givenName) ? -1 // if b should come later, push a to begin
-                : 0;                   // a and b are equal
-    });
-}
-
-function filterJSON() {
-
-    fitlered = sortedJSON;
-
-    if (filter.length > 0 && filterDept == 'All Departments') {
-        
-        
-        filtered = sortedJSON.filter(function (n) { return n.displayName.toLowerCase().indexOf(filter) !== -1});
-
-        // filtered = sortedJSON;
-    }
-    
-
-    else if (filter.length > 0 && filterDept != 'All Departments') {
-        
-        filtered = sortedJSON.filter(function (n) { return n.displayName.toLowerCase().indexOf(filter) !== -1 && n.department === filterDept; });
-    }
-
-    else if (filterDept != 'All Departments') {
-        
-        filtered = sortedJSON.filter(function (n) { return n.department === filterDept; });
-    }
-    else {
-        
-        filtered = sortedJSON;
-    }
-
-    
-    filteredJSON = filtered;
-}
-
-
-/**
- * Builds a string containing the HTML that makes up the content of the directory listing.
- * 
- * @returns {string} The directory HTML string
- * 
- * */
-function buildDirectory() {
-    var htmlBody = "<h2>Results</h2><div class='equal-column-heights row'>"; 
-
-    // Iterate through all items in the filtered JSON array, if available
-    for (var i = 0; filteredJSON && Array.isArray(filteredJSON) && i < filteredJSON.length; i++) {
-        var person = filteredJSON[i];
-
-        // Extract the parts of a 10-digit telephone number, if available
-        var phoneNumber = person.telephoneNumber ? person.telephoneNumber.match(/(\d{3})(\d{3})(\d{4})/) : null;
-        
-        if (phoneNumber !== null) {
-            // Format the telephone number in a standard, human-readable format
-            phoneNumber = "(" + phoneNumber[1] + ") " + phoneNumber[2] + "-" + phoneNumber[3]; 
+//build_directory send xhttp request and retrive the xml as a local data
+function build_directory(val) {
+    //get departement code from class named directoryGenerater
+    var xml = 'https://webapps.middleware.vt.edu/peoplesearch/Search?query=(departmentNumber%3d' + val + ')';
+    //sending the request
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            polulate_card(this);
         }
+    };
 
-        // Check that, at a bare minimum, the person has a display name set (otherwise don't add them to the list...but this shouldn't ever happen)
-        if (person.displayName && person.displayName.length > 0)
-        {
-            htmlBody += "<div class='col-md-5 directory-card' style=''><div class='directory-person'><p class='h3'>" + person.displayName +
-                "</p>";
-            // Add other properties for the person to the output, if they are set
-            if (person.title && person.title.length > 0) {
-                htmlBody += "<p class='title'>" + person.title + "</p>";
+    xhttp.open("GET", xml, true);
+    xhttp.send();
+}
+
+//polulate_card build directory name card with title, email, phone# and ... 
+//namecard will be appended to the class 'directoryGenerater'
+function polulate_card(xml) {
+
+    //setting up variable
+    var i;
+    var xmlDoc = xml.responseXML;
+    var peopleDirectory = xmlDoc.getElementsByTagName("dsml:entry"); //people from the department
+    var sn = new Array();
+
+    //looping through all the person in the current xml
+    for (i = 0; i < peopleDirectory.length; i++) {
+
+        //locate each peoson and retrieve all their attributes
+        var j;
+        people = peopleDirectory[i];
+        attrs = people.getElementsByTagName("dsml:attr");
+        // console.log(people);
+        //Initializing html elements
+        var displayName = document.createElement('displayName');
+        var perosontitle = document.createElement('perosontitle');
+        var department = document.createElement('department');
+        var mail = document.createElement('mail');
+        var telephoneNumber = document.createElement('telephoneNumber');
+        var postalAddress = document.createElement('postalAddress');
+
+
+        //getting title, name, phone number by attribute name.
+        for (j = 0; j < attrs.length; j++) {
+            if (attrs[j].getAttribute('name') == 'mail') {
+                mail.innerHTML = "Email: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
             }
-            if (person.department && person.department.length > 0) {
-                htmlBody += "<p class='department'>" + person.department + "</p>";
+            if (attrs[j].getAttribute('name') == 'title') {
+                perosontitle.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
             }
-            if (person.mailPreferredAddress && person.mailPreferredAddress.length > 0) {
-                htmlBody += "<p><b>Email: </b><a href='mailto:" + person.mailPreferredAddress + "'>" + person.mailPreferredAddress + "</a></p>";
+            if (attrs[j].getAttribute('name') == 'department') {
+                department.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
             }
-            if (phoneNumber && phoneNumber.length > 0) {
-                htmlBody += "<p><b>Phone: </b>" + phoneNumber + "</p>";
+            if (attrs[j].getAttribute('name') == 'displayName') {
+                displayName.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
             }
-            if (person.postalAddress && person.postalAddress.length > 0) {
-                // Office postal addresses come delimited by the '$' character, so split each up into individual lines in the HTML
-                htmlBody += "<p><b>Office: </b>" + person.postalAddress.replace(/\$/g, "<br>") + "</p>";
+            if (attrs[j].getAttribute('name') == 'telephoneNumber') {
+                telephoneNumber.innerHTML = "Phone: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
             }
-            htmlBody += "</div></div>";
+            if (attrs[j].getAttribute('name') == 'postalAddress') {
+                postalAddress.innerHTML = "Postal Address: <br>" + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
+            }
+            if (attrs[j].getAttribute('name') == 'sn') {
+                sn[i] = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.toUpperCase();
+            }
         }
-        
-        if (i % 2 === 1)
-        {
-            // Add a clearfix DIV after every 2nd entry to have, at most, two entries per row in the results
-            htmlBody += "<div class='clearfix hidden-sm hidden-xs'></div>";
-        }
+        mail.innerHTML = 'haha.com';
+        mail.href = 'mailto:wiki0831@gmail.com';
+
+        //append the corresspondig value to the name card
+        var name_card = document.createElement('div');
+        name_card.className = "directory-card";
+        name_card.setAttribute("data-sn", sn[i]);
+        name_card.appendChild(displayName);
+        name_card.appendChild(perosontitle);
+        name_card.appendChild(department);
+        name_card.appendChild(mail);
+        name_card.appendChild(telephoneNumber);
+        name_card.appendChild(postalAddress);
+
+        //append the namecard to the div with proper ID 
+
+
+        var $people = $('div.directoryGenerater'),
+            $peopleli = $people.children('div');
+
+        $peopleli.sort(function(a, b) {
+            var an = a.getAttribute('data-sn'),
+                bn = b.getAttribute('data-sn');
+
+            if (an > bn) {
+                return 1;
+            }
+            if (an < bn) {
+                return -1;
+            }
+            return 0;
+        });
+
+        $peopleli.detach().appendTo($people);
     }
 
-    htmlBody += "</div>"
-    return htmlBody;
+console.log(sn);
+    document.getElementsByClassName('directoryGenerater')[0].appendChild(name_card);
 }
-
-
-
-function buildFilters() {
-    var htmlheader = "";
-    var depts = ['All Departments', 'Accounting & Information Systems', 'Business Information Technology', 'Finance, Insurance & Business Law', 'Hospitality and Tourism', 'Management', 'Marketing', 'Dean of Business', 'Executive MBA Program', 'Undergraduate Advising', 'Masters of Information Technology', 'PMBA Program', 'MBA Program', 'International Programs', 'Ctr for Innov & Entrepreneurship','Ctr for Busi Intelligence&Analytics','Executive Business Research'];
-
-    var filtersDiv = document.createElement("div");
-    htmlheader += "<div id='filters' class='parbase section list'> <h2>Filters</h2> <input class='form-control  input-lg' type='text' id='myInput' value='" + filter +"' onkeyup='myFunction();' placeholder='Search for name...' />";
-    htmlheader += "<br/><select class='form-control  input-lg' id='deptfilter' name='dept' onchange='myFunction();'>";
-
-    for (var i = 0, len = depts.length; i < len; ++i) {
-        htmlheader += "<option value='" + depts[i] + "'>" + depts[i] + "</option>";
-
-    }
-
-      
-    htmlheader += "</select > ";
-
-    htmlheader += "</div>";
-        return htmlheader;
-}
-
-
-function myFunction() {
-    // Declare variables
-    
-    var input
-    input = document.getElementById('myInput');
-    dept = document.getElementById('deptfilter');
-    filter = input.value.toLowerCase();
-    filterDept = dept.value;
-    filterJSON();
-    reBuildDirectory();
-   
-}
-
-function buildHTML() {
-    console.log(5 + 6);
-    var directoryTable = document.createElement("div"); 
-    body[0].innerHTML = "";
-    body[0].innerHTML += "<div class='alert alert-warning'><h1>THIS IS A TEST DIRECTORY<h1><p>This is just a test page</p></div>"
-
-    body[0].innerHTML += buildFilters();
-
-    body[0].innerHTML += "<div id='directorytable' class='parbase section list'>"
-
-    body[0].innerHTML += "</div>";
-
-    reBuildDirectory();
-}
-
-function reBuildDirectory()
-{
-    var directory = document.getElementById('directorytable');
-    directory.innerHTML = "";
-    directory.innerHTML = buildDirectory();
-}
-
-
-
