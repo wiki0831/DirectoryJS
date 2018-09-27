@@ -68,12 +68,20 @@ function polulate_card(xml) {
                 telephoneNumber.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'postalAddress') {
-                postalAddress.innerHTML =attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
+                postalAddress.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
             }
             if (attrs[j].getAttribute('name') == 'sn') {
                 sn[i] = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.toUpperCase();
             }
         }
+
+        //Mailto function
+        var a = document.createElement('a');
+        var linkText = document.createTextNode(mail.innerHTML);
+        a.appendChild(linkText);
+        a.href = "mailto:"+ mail.innerHTML;
+        mail.appendChild(a);
+        mail.innerHTML = "";
 
         //append the corresspondig value to the name card
         var name_card = document.createElement('div');
@@ -82,7 +90,7 @@ function polulate_card(xml) {
         name_card.appendChild(displayName);
         name_card.appendChild(perosontitle);
         name_card.appendChild(department);
-        name_card.appendChild(mail);
+        name_card.appendChild(a);
         name_card.appendChild(telephoneNumber);
         name_card.appendChild(postalAddress);
 
