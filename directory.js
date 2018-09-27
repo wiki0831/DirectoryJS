@@ -7,6 +7,7 @@
 function build_directory(val) {
     //get departement code from class named directoryGenerater
     var xml = 'https://webapps.middleware.vt.edu/peoplesearch/Search?query=(departmentNumber%3d' + val + ')';
+
     //sending the request
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -35,8 +36,11 @@ function polulate_card(xml) {
         //locate each peoson and retrieve all their attributes
         var j;
         people = peopleDirectory[i];
-        attrs = people.getElementsByTagName("dsml:attr");
         // console.log(people);
+
+
+        attrs = people.getElementsByTagName("dsml:attr");
+
         //Initializing html elements
         var displayName = document.createElement('displayName');
         var perosontitle = document.createElement('perosontitle');
@@ -49,29 +53,27 @@ function polulate_card(xml) {
         //getting title, name, phone number by attribute name.
         for (j = 0; j < attrs.length; j++) {
             if (attrs[j].getAttribute('name') == 'mail') {
-                mail.innerHTML = "Email: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+                mail.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'title') {
-                perosontitle.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+                perosontitle.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'department') {
-                department.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+                department.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'displayName') {
-                displayName.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+                displayName.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'telephoneNumber') {
-                telephoneNumber.innerHTML = "Phone: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+                telephoneNumber.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML;
             }
             if (attrs[j].getAttribute('name') == 'postalAddress') {
-                postalAddress.innerHTML = "Postal Address: <br>" + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
+                postalAddress.innerHTML =attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
             }
             if (attrs[j].getAttribute('name') == 'sn') {
                 sn[i] = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.toUpperCase();
             }
         }
-        mail.innerHTML = 'haha.com';
-        mail.href = 'mailto:wiki0831@gmail.com';
 
         //append the corresspondig value to the name card
         var name_card = document.createElement('div');
@@ -85,7 +87,7 @@ function polulate_card(xml) {
         name_card.appendChild(postalAddress);
 
         //append the namecard to the div with proper ID 
-
+        document.getElementsByClassName('directoryGenerater')[0].appendChild(name_card);
 
         var $people = $('div.directoryGenerater'),
             $peopleli = $people.children('div');
@@ -105,7 +107,5 @@ function polulate_card(xml) {
 
         $peopleli.detach().appendTo($people);
     }
-
-console.log(sn);
-    document.getElementsByClassName('directoryGenerater')[0].appendChild(name_card);
+    console.log(sn)
 }
