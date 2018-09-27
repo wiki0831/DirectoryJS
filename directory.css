@@ -1,0 +1,103 @@
+<style>
+.directory-card {
+    /*border: 2px dashed rgba(255,102,0,1);*/
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #e5e1e6;
+    -webkit-box-shadow: 0 0 10px #e5e1e6;
+    box-shadow: 0 0 10px #e5e1e6;
+    background: #fff;
+	float:left;
+	width: 40%;
+	min-height: 490px;
+	}
+	
+.directory-person p{
+    margin-bottom:.25em;
+}
+.directory-person .department {
+    
+    color: #75787B;
+    margin-bottom:1em;
+}
+
+.directory-person .title {
+    color: #8B1F41;
+}
+
+displayname
+{
+	font-size: 26px;
+	color: #000000;
+	text-transform: uppercase;
+	font-family: gineso-condensed,sans-serif;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #9d9879;
+	display: block;
+}
+perosontitle
+{
+	font-style: italic;
+	font-size: 18px;
+	color: #333;
+}
+department
+{
+	font-style: italic;
+	font-size: 18px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #dbd8bc;
+	border-bottom-color: #dbd8bc;
+	display: block;
+	color: #333;
+	margin-bottom: 5px;
+}
+mail
+{
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+telephonenumber
+{
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+postaladdress
+{
+	padding-left: 20px;
+	display: block;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+@media only screen and (max-width : 767px) {
+
+.directory-card 
+{
+	min-height: 570px;
+}
+}
+
+@media only screen and (max-width : 700px) {
+
+.directory-card 
+{
+	width: 96%;
+	min-height: 300px;
+}
+}
+
+@media only screen and (max-width : 485px) {
+
+.directory-card 
+{
+	width: 100%;
+}
+}
+</style>

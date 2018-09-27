@@ -1,0 +1,335 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+// This javascript file extract data from xml and inject the data into html.
+// author: weiqi yuan
+// version: 2018.09.24
+// bib: wiki0831.com
+
+//build_directory send xhttp request and retrive the xml as a local data
+function build_directory(val) {
+    //get departement code from class named directoryGenerater
+    var xml = 'https://webapps.middleware.vt.edu/peoplesearch/Search?query=(departmentNumber%3d' + val + ')';
+    //sending the request
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            polulate_card(this);
+        }
+    };
+
+    xhttp.open("GET", xml, true);
+    xhttp.send();
+}
+
+//polulate_card build directory name card with title, email, phone# and ... 
+//namecard will be appended to the class 'directoryGenerater'
+function polulate_card(xml) {
+
+    //setting up variable
+    var i;
+    var xmlDoc = xml.responseXML;
+    var peopleDirectory = xmlDoc.getElementsByTagName("dsml:entry"); //people from the department
+    var sn = new Array();
+
+    //looping through all the person in the current xml
+    for (i = 0; i < peopleDirectory.length; i++) {
+
+        //locate each peoson and retrieve all their attributes
+        var j;
+        people = peopleDirectory[i];
+        attrs = people.getElementsByTagName("dsml:attr");
+        // console.log(people);
+        //Initializing html elements
+        var displayName = document.createElement('displayName');
+        var perosontitle = document.createElement('perosontitle');
+        var department = document.createElement('department');
+        var mail = document.createElement('mail');
+        var telephoneNumber = document.createElement('telephoneNumber');
+        var postalAddress = document.createElement('postalAddress');
+
+
+        //getting title, name, phone number by attribute name.
+        for (j = 0; j < attrs.length; j++) {
+            if (attrs[j].getAttribute('name') == 'mail') {
+                mail.innerHTML = "Email: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+            }
+            if (attrs[j].getAttribute('name') == 'title') {
+                perosontitle.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+            }
+            if (attrs[j].getAttribute('name') == 'department') {
+                department.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+            }
+            if (attrs[j].getAttribute('name') == 'displayName') {
+                displayName.innerHTML = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+            }
+            if (attrs[j].getAttribute('name') == 'telephoneNumber') {
+                telephoneNumber.innerHTML = "Phone: " + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML + "<br>";
+            }
+            if (attrs[j].getAttribute('name') == 'postalAddress') {
+                postalAddress.innerHTML = "Postal Address: <br>" + attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.replace(/[$,]+/g, "<br />");
+            }
+            if (attrs[j].getAttribute('name') == 'sn') {
+                sn[i] = attrs[j].getElementsByTagName("dsml:value")[0].innerHTML.toUpperCase();
+            }
+        }
+        mail.innerHTML = 'haha.com';
+        mail.href = 'mailto:wiki0831@gmail.com';
+
+        //append the corresspondig value to the name card
+        var name_card = document.createElement('div');
+        name_card.className = "directory-card";
+        name_card.setAttribute("data-sn", sn[i]);
+        name_card.appendChild(displayName);
+        name_card.appendChild(perosontitle);
+        name_card.appendChild(department);
+        name_card.appendChild(mail);
+        name_card.appendChild(telephoneNumber);
+        name_card.appendChild(postalAddress);
+
+        //append the namecard to the div with proper ID 
+
+
+        var $people = $('div.directoryGenerater'),
+            $peopleli = $people.children('div');
+
+        $peopleli.sort(function(a, b) {
+            var an = a.getAttribute('data-sn'),
+                bn = b.getAttribute('data-sn');
+
+            if (an > bn) {
+                return 1;
+            }
+            if (an < bn) {
+                return -1;
+            }
+            return 0;
+        });
+
+        $peopleli.detach().appendTo($people);
+    }
+
+console.log(sn);
+    document.getElementsByClassName('directoryGenerater')[0].appendChild(name_card);
+}
+</script>
+<style>
+.directory-card {
+    /*border: 2px dashed rgba(255,102,0,1);*/
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #e5e1e6;
+    -webkit-box-shadow: 0 0 10px #e5e1e6;
+    box-shadow: 0 0 10px #e5e1e6;
+    background: #fff;
+    float: left;
+    width: 40%;
+    min-height: 490px;
+}
+
+.directory-person p {
+    margin-bottom: .25em;
+}
+
+.directory-person .department {
+
+    color: #75787B;
+    margin-bottom: 1em;
+}
+
+.directory-person .title {
+    color: #8B1F41;
+}
+
+displayname {
+    font-size: 26px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: gineso-condensed, sans-serif;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9d9879;
+    display: block;
+}
+
+perosontitle {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+}
+
+department {
+    font-style: italic;
+    font-size: 18px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #dbd8bc;
+    border-bottom-color: #dbd8bc;
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+mail {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+telephonenumber {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+postaladdress {
+    padding-left: 20px;
+    display: block;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .directory-card {
+        min-height: 570px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .directory-card {
+        width: 96%;
+        min-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+
+    .directory-card {
+        width: 100%;
+    }
+}
+</style>
+<!-- add the follwing code to the html where you want to populate the name card,
+makesure class is 'directoryGenerater'
+set param as the department number-->
+<div class="directoryGenerater">
+    <script type="text/javascript">
+    var AllDepartment = ['065101',
+        '065203',
+        '065206',
+        '065300',
+        '065301',
+        '065500',
+        '044700',
+        '048800',
+        '058308',
+        '058312',
+        '058315',
+        '065604',
+        '058324',
+        '065000',
+        '065100',
+        '065103',
+        '065200',
+        '058310',
+        '027400',
+        '044701',
+        '071100',
+        '072501',
+        '058321',
+        '027205',
+        '064801',
+        '064802',
+        '065104',
+        '036800',
+        '045100',
+        '058306',
+        '058307',
+        '058311',
+        '058601',
+        '060001',
+        '026800',
+        '065603',
+        '065700',
+        '066200',
+        '077500',
+        '027203',
+        '064800',
+        '065210',
+        '065211',
+        '065303',
+        '058301',
+        '058318',
+        '058319',
+        '058320',
+        '072502',
+        '027201',
+        '064900',
+        '065207',
+        '065302',
+        '042802',
+        '044600',
+        '049400',
+        '058316',
+        '058317',
+        '027200',
+        '072504',
+        '065601',
+        '066100',
+        '066102',
+        '066103',
+        '058322',
+        '027202',
+        '065102',
+        '042801',
+        '047300',
+        '047500',
+        '049300',
+        '058302',
+        '058313',
+        '027300',
+        '029000',
+        '065600',
+        '066101',
+        '072500',
+        '027204',
+        '065201',
+        '065204',
+        '065205',
+        '065400',
+        '042800',
+        '043300',
+        '058303',
+        '058305',
+        '058309',
+        '058314',
+        '027500',
+        '066300',
+        '078500',
+        '064803',
+        '065202',
+        '065208',
+        '065209',
+        '047900',
+        '058304',
+        '026900',
+        '027000',
+        '027100',
+        '028000',
+        '065602',
+        '065800',
+        '066104',
+        '072503',
+        '078000',
+        '078600',
+        '058323',
+        '027206'
+    ];
+
+    for (i = 0; i < AllDepartment.length; i++) {
+        build_directory(AllDepartment[i]);
+    }
+
+    </script>
+</div>

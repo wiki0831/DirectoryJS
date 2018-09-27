@@ -1,0 +1,3905 @@
+<dsml:dsml xmlns:dsml="http://www.dsml.org/DSML">
+<dsml:directory-entries>
+<dsml:entry dn="uid=1745712,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>gwhisen@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319528</dsml:value>
+</dsml:attr>
+<dsml:attr name="labeledURI">
+<dsml:value>Homepage:http://led.tlos.vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Digital Media Services$Whittemore Hall Rm 289 Virginia Tech$1185 Perry St.$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>H</dsml:value>
+</dsml:attr>
+<dsml:attr name="instantMessagingID">
+<dsml:value>Google:gwhisen@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Gregory H Whisenhunt</dsml:value>
+<dsml:value>Greg Whisenhunt</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Multi-Media Applications Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1745712</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Gregory</dsml:value>
+<dsml:value>Greg</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Greg Whisenhunt</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Whisenhunt</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1154847,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>rfentres@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311255</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-Enhanced Learning and Online Strategies$Torgersen Hall, 2020D$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>A</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Robert A Fentress</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>rfentres</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Web Accessibility Solutions Designer</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>rfentres</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1154847</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Robert</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Robert A Fentress</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Fentress</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1981147,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318984</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>hjames99@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1070B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>N</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>James N Howes</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Media Specialist II</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1981147</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>James</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>James N Howes</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Howes</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1404735,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311832</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>mabond@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 2230B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Aaron</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Aaron Bond</dsml:value>
+<dsml:value>Mark Aaron Bond</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Senior Director, NLI and Faculty Digital Fluency</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1404735</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Aaron</dsml:value>
+<dsml:value>Mark</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Aaron Bond</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Bond</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=822692,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>brackett@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312236</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Assistive Technologies$Torgersen Hall, 2020E, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>J</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Harold J Brackett</dsml:value>
+<dsml:value>Hal Brackett</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>brackett</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director of Accessible Technologies</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>brackett</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>822692</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Hal</dsml:value>
+<dsml:value>Harold</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Hal Brackett</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Brackett</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=821535,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318989</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>mharden@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Digital Media Services$1185 Perry St Whittemore RM 288$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>C</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Mark C Harden</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Manager</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>821535</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Mark</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Mark C Harden</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Harden</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1065531,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312698</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>ohestnes@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Networked Knowledge Collaboration Services$Torgersen Hall 2220A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Oddbjoern Hestnes</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Web Applications Developer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>ohestnes</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>ohestnes</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1065531</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Oddbjoern</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Oddbjoern Hestnes</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Hestnes</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1894763,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402316499</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>timchitt@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Tech-enhanced Learn & Online Strat$620 Drillfield Dr Torgersen Rm 1220B$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Timothy Chittenden</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Project Manager</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1894763</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Timothy</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Timothy Chittenden</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Chittenden</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1910357,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317636</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>cckovach@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+InnovationSpace$Torgersen Hall, 1140G$620 Drillfield Drive$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Christopher</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Charles Christopher Kovach</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Multimedia and Emerging Technologies Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1910357</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Charles</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Charles Christopher Kovach</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Kovach</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=2102130,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311165</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>debord1@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1220D Torgersen Hall$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Treadaway</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Deborah Treadaway Derden</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Coordinator of Program Evaluation</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>2102130</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Deborah</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Deborah Treadaway Derden</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Derden</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1157692,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>jmurph@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>7035388389</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Northern Virginia Graduate Ctr$7054 Haycock Road$Falls Church, VA 22043
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>9999</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>J</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>James J Murphy</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>jmurph</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Distance Learning Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>jmurph</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1157692</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>James</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>James J Murphy</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Murphy</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1693636,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localMobile</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319587</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>willfox@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Innovation Space, TLOS$1140F Torgersen Hall, Virginia Tech$620 Drillfield Dr.$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Jianqiang Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Assistant Director, Emerging Academic Technologies and Space
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1693636</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Jianqiang</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Jianqiang Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="userCertificate;binary">
+<dsml:value encoding="base64">
+MIIGFjCCA/6gAwIBAgIQUW4p0c1QPHTY5CR7Or7XjjANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UEBhMCVVMxETAPBgNVBAgTCFZpcmdpbmlhMRMwEQYDVQQHEwpCbGFja3NidXJnMSYwJAYDVQQLEx1HbG9iYWwgU29mdHdhcmUgVG9rZW4gVXNlciBDQTE8MDoGA1UEChMzVmlyZ2luaWEgUG9seXRlY2huaWMgSW5zdGl0dXRlIGFuZCBTdGF0ZSBVbml2ZXJzaXR5MTQwMgYDVQQDEytWaXJnaW5pYSBUZWNoIEdsb2JhbCBTb2Z0d2FyZSBUb2tlbiBVc2VyIENBMB4XDTE4MDkwNTE0NTEwOVoXDTIwMDkwNDE0NTEwOVowgY4xCzAJBgNVBAYTAlVTMRMwEQYKCZImiZPyLGQBGRYDZWR1MRIwEAYKCZImiZPyLGQBGRYCdnQxPDA6BgNVBAoMM1ZpcmdpbmlhIFBvbHl0ZWNobmljIEluc3RpdHV0ZSBhbmQgU3RhdGUgVW5pdmVyc2l0eTEYMBYGA1UEAwwPSmlhbnFpYW5nIFpoYW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuicrPmiI+7VmbpcDXuQOUzMCccD3tQiELMzQ+mLBztxtaF56+C5/RGEcVHlSZHvgCcMJcev31lFOPh2jS/11rFM538kPscmSNfLGNFQQXSi/CpxGaD9gharIgG1XDWelvIrLpzXPWb3JcW0Eo2gd4ZEckLpT00ASpcWqq0oAKaBluv+XY+LXJnWPubah/DCiIoN9mkeVJW2+L1ebY0lYhWhJLAcN/RN2sR5ZEVpmj1g6K4u6iNqLvQX9r1dw+0LVO3Jrt6pbokxhyuKVf57goAi3W6XuNTewgHy8S5tWzU/8ySYerp/8l1AcXwUzxlfLDEwUTV205wCQClVG8j2v0wIDAQABo4IBKTCCASUwHQYDVR0OBBYEFLfnnxFsgUj37oT1XSHpqgfn8oXjMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUPJQizk2hQGgysGuUVZ1pc26KBoswRQYDVR0gBD4wPDA6BgwrBgEEAbRoBQIDBgEwKjAoBggrBgEFBQcCARYcaHR0cDovL3d3dy5wa2kudnQuZWR1L3BvbGljeTA9BgNVHR8ENjA0MDKgMKAuhixodHRwOi8vd3d3LnBraS52dC5lZHUvdnRnc3R1Y2EvY3JsL2NhY3JsLmNybDALBgNVHQ8EBAMCBPAwKQYDVR0lBCIwIAYIKwYBBQUHAwIGCCsGAQUFBwMEBgorBgEEAYI3FAICMBoGA1UdEQQTMBGBD2ljYWxsdGVrQHZ0LmVkdTANBgkqhkiG9w0BAQsFAAOCAgEAqT7XnhH2yFK8elkMrB0VbcBH4H48BESp6H/8BMT1cV64zobTKZ13aHtm8d85eyl20rDtg3T9VjKyy1QkqvIQrjWXateN9MpO0R1170NBoT1T00wjH6vN/iLTn4uwL/M0bwsokjyKRueF2/4oCF+PxJ2iW8RrTtKYlorQ68ATu2nMVMJeEj7biKjg7FaYScAaBylT3sRYFz+xLHH3zczSEaWe7eQubDEKpSMiTnidsaeNjO5Tx+aomwk5uo6i8v2fDNcDcB6b1mPbB7BT4lZobKKTryC2q4xMkhN2O57EbTvpiTk0QdjXqOgk+5vOAH/6tAVR2R3tfGHDRyZ2e2kJOMvGoh0BwgAHyCo/Qj32ib4pWzZiKtSF0VXC+DF0KO0iRZoPu/08O9KufD8vyt22RelkB11sol/AZNUVqw0IilVYG0s1twdeQA7WmY7+P3Rnbo2ZSuZUC606aTBldY4qUOri4pxA4jQFdsDD+SPfnacl6HPaJask+G+1IZZGr06YAZgTHPCbgnafFtx8KmACEVA7JAGaoE6RRIKD4RiOmPEnrPSVaKsN2AylaJF9Wj4bE7OjIxqOtBQOpwBkLKxpI00OH9GXGj0vrWegNiGPOYHSyWN5HfZ34DDxr0B/3hueCez59BQ9GUSc8UklptM0H18z51PCQ+gTzTHNtsftvjU=
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=2052539,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>7038388389</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>asing84@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Norther VA Graduate Center$Virginia Tech$7054 Haycock Road$Falls Church, VA 22043$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>J</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Antoine J Singleton</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Distance Learning Tech</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>2052539</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Antoine</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Antoine J Singleton</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Singleton</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=814960,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localMobile</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>vplott@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319704</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Digital Imaging$Torgersen Hall 1090 Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>A</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Verner A Plott</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>vplott</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Digital Archiving Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>vplott</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>814960</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Verner</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Verner A Plott</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Plott</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=2046609,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>7035388389</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>rene54@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Virginia Tech$Northern VA Greaduate Center$7054 Haycock Road$Falls Church, VA 22043$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Antonio</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Rene Antonio Fabrega</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Distance Learning Tech</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>2046609</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Rene</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Rene Antonio Fabrega</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Fabrega</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1706483,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402310309</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>kervine@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 3210A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>P</dsml:value>
+<dsml:value>Phillips</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Kim Ervine</dsml:value>
+<dsml:value>Kimberly P Ervine</dsml:value>
+<dsml:value>Kimberly Phillips Ervine</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Fiscal Technician</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1706483</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Kimberly</dsml:value>
+<dsml:value>Kim</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Kim Ervine</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Ervine</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1142750,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317940</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>gcampbel@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning Spaces$Newman Library, 112, Virginia Tech$560 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>G</dsml:value>
+<dsml:value>Gregory</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>James G Campbell</dsml:value>
+<dsml:value>Greg Campbell</dsml:value>
+<dsml:value>James Gregory Campbell</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Programmer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1142750</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>James</dsml:value>
+<dsml:value>Greg</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Greg Campbell</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Campbell</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1153639,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>andrew.tweedt@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402313405</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 2220C, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>R</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Andrew R Tweedt</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>atweedt</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Video Platforms Application Administrator</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>atweedt</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1153639</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Andrew</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Andrew R Tweedt</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Tweedt</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1330925,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402315467</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>daron.williams@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0445</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 3060, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Bennett</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Daron Bennett Williams</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director of Instructional Design and Development</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1330925</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Daron</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Daron Bennett Williams</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Williams</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=878231,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402314091</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>kelleycw@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 3210B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Warner</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Cindy Kelley</dsml:value>
+<dsml:value>Cynthia Warner Kelley</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director of Finance and Administration</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>878231</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Cynthia</dsml:value>
+<dsml:value>Cindy</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Cindy Kelley</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Kelley</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=4207165,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311253</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>santhoshreddy@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+2220D Torgersen Hall$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Reddy</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Santhosh Reddy Chalamalla</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Applicat Admin & DevOps Prgmer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>4207165</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Santhosh</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Santhosh Reddy Chalamalla</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Chalamalla</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1200043,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>instantMessagingID</dsml:value>
+<dsml:value>localMobile</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317096</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>kmccrery@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Torgersen Hall Rm 1220C$620 Drillfield Drive$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>T</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Kenneth T McCrery</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Deputy Executive Director</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1200043</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Kenneth</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Kenneth T McCrery</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>McCrery</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1732500,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="uid">
+<dsml:value>1732500</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>rlzhang@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Ruiling</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Ruiling Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Ruiling Zhang</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Web Application Developer</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=819551,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>bbrownin@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311677</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning Spaces$McBryde, 641, Virginia Tech$225 Stanger Street$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>D</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Barry D Browning</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>bbrownin</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Office Services Aide</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>bbrownin</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>819551</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Barry</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Barry D Browning</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Browning</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1141787,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localMobile</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319493</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>deinman@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Digital Imaging$Torgersen Hall, 1090, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>E</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Donald E Inman</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director, Repository and Project Management</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1141787</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Donald</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Donald E Inman</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Inman</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1936527,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402314772</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>mattl06@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 3060, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>F</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Matthew Louvet Sr</dsml:value>
+<dsml:value>Matthew F Louvet Sr</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Instructional Designer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1936527</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Matthew</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Matthew Louvet Sr</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Louvet</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1981144,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402315930</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>dfoltz@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1070D, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>C</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>David C Foltz II</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Program Support Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1981144</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>David</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>David C Foltz II</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Foltz</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=911684,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>instantMessagingID</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>bedmison@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402313957</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 2220F, Virginia Tech (0292)$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Robert</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Bob Edmison</dsml:value>
+<dsml:value>Kenneth Robert Edmison</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>kedmison</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director of Software Development</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>kedmison</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>911684</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Kenneth</dsml:value>
+<dsml:value>Bob</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Bob Edmison</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Edmison</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=812867,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402313682</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>hollidrewry@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1140D, Virginia Tech$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>G</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Holli G Drewry</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Digital Content Strategist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>812867</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Holli</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Holli G Drewry</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Drewry</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1342927,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>cindymoore@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311923</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+3120 Torgersen Hall$620 Drillfield Drive$Virginia Tech$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0445</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Dawn</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Cynthia Dawn Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>ckeister</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Web Designer/Graphic Designer</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>ckeister</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1342927</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Cynthia</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Cynthia Dawn Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1267722,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>millerch@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312240</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Torgersen Hall 2020B$620 Drillfield Drive$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Hixson</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Christa Hixson Miller</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>crhixson</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director of Inclusive Media Design</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>crhixson</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1267722</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Christa</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Christa Hixson Miller</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Miller</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1808050,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>dalepike@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317108</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 3200, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Denzil</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Dale Denzil Pike</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>dalepike</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Executive Director</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>dalepike</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>
+1103 Quail Drive$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1808050</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Dale</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Dale Denzil Pike</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Pike</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=815380,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>marquis@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312423</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning Spaces$Newman Library, 112, Virginia Tech$560 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>M</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Marcus M Sparks</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>marquis</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Computer-Integrated Classroom Administrator</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>marquis</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>815380</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Marcus</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Marcus M Sparks</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Sparks</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1247174,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>jihane.najdi@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Jihane Najdi</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Sr. Web Dev. Software Engineer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>jnajdi</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>jnajdi</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1247174</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Jihane</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Jihane Najdi</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Najdi</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=808703,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318980</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>sam.tressel@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technolody-enhanced Learning and Online Strategies$Torgersen Hall 1070B , Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>S</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Paul S Tressel</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Electrical Engineer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>808703</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Paul</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Paul S Tressel</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Tressel</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1141722,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>homerj@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319515</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies (TLOS)$1700 Pratt Drive$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0214</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>E</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>John E Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>homerj</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Systems Engineer</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>homerj</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1141722</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>John</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>John E Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1661130,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402315004</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>lbaab@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0445</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$3120 Torgersen Hall, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Lujean Baab</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Senior Director, Networked Learning Design and Strategies
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>1745 Sterling Drive$Blacksburg, VA 24060-0936</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1661130</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Lujean</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Lujean Baab</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Baab</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1693550,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318962</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>yaffedi@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 2210B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Ian</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Daniel Ian Yaffe</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Learning Technologies Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1693550</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Daniel</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Daniel Ian Yaffe</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Yaffe</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=817927,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>userCertificate</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>homerk@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>J</dsml:value>
+<dsml:value>Linville</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Kimberley J Homer</dsml:value>
+<dsml:value>Kimberley Linville Homer</dsml:value>
+<dsml:value>Kimberley Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Learning Technologies Analyst</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>817927</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Kimberley</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Kimberley Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Homer</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1150047,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>dschuh@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402316446</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1070B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0506</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>A</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>David A Schuh</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>dschuh</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>VNOC Lead Engineer</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>dschuh</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1150047</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>David</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>David A Schuh</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Schuh</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=818156,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>instantMessagingID</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>jackie.m@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402316801</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1220B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>A</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Jackie Meese</dsml:value>
+<dsml:value>Jack A Meese</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>jmeese</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Assistant Director, Computer Systems Administration
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>jmeese</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>818156</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Jackie</dsml:value>
+<dsml:value>Jack</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Jackie Meese</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Meese</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=814192,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>marcz@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318994</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+ePortfolio Initiatives$Torgersen Hall, 2230A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Robert</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Marc Robert Zaldivar</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>mzaldiva</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director, NLI Curriculum and Assessment</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>mzaldiva</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>814192</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Marc</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Marc Robert Zaldivar</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Zaldivar</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1680977,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localMobile</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318321</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>qwarnick@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="labeledURI">
+<dsml:value>Homepage:http://quinnwarnick.com</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$1160A Torgersen Hall, Virginia Tech$620 Drillfield Dr.$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Quinn Warnick</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Senior Director of Innovation and Outreach</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1680977</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Quinn</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Quinn Warnick</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Warnick</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=2053010,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312378</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>sarawp4@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 3210, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>W</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Sara W Perks</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Administrative Assistant</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>2053010</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Sara</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Sara W Perks</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Perks</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1146609,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>myersb@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317885</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Comp-Integrated Learning Spaces$620 Drillfield Dr Torgersen 1230A$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>O</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Brian O Myers</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>myersb</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Applications Analyst</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>myersb</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1146609</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Brian</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Brian O Myers</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Myers</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=823460,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="mail">
+<dsml:value>lprice@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317125</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning Spaces$Torgersen Hall 1230A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Louie Price Jr</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>lprice</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Programmer</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>lprice</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>
+1302 Westover Drive$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>823460</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Louie</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Louie Price Jr</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Price</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPhone">
+<dsml:value>5405527197</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1142032,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>dvhokie@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318988</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Digital Media Services$Whittemore Hall rm 288 Virginia Tech$1185 Perry St.$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Thomas</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Christopher Thomas Valluzzo</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>dvhokie</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Multimedia Producer/Director</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>dvhokie</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1142032</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Christopher</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Christopher Thomas Valluzzo</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Valluzzo</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1385376,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>fergus1n@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402313563</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning$Spaces - Math Emporium$801 University City Blvd.$Blacksburg, VA 24060
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0369</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>W</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Norman W Ferguson</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>fergus1n</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Systems Administrator</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>fergus1n</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1385376</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Norman</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Norman W Ferguson</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Ferguson</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=822763,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>ahmoore@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317108</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 3200, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>H</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Anne Moore</dsml:value>
+<dsml:value>Anne H Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>ahmoore</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Associate Vice President Emerita of Learning Technologies
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>ahmoore</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>822763</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Anne</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Anne Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Moore</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPhone">
+<dsml:value>5405522578</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1914004,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402317620</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>dupham@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1070E, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>M</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Donald M Upham</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Distance Learning Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>3670 Five Points Rd$Riner, VA 24149$United States</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1914004</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Donald</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Donald M Upham</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Upham</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1685151,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>akuafori@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Eunice Ofori</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Instructional Designer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>akuafori</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>akuafori</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>
+208 Marlington Street$Blacksburg, VA 24060$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1685151</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Eunice</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Eunice Ofori</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Ofori</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPhone">
+<dsml:value>8044903556</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1300673,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402310982</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>thackead@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 1220A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Danielle</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Danielle Thacker</dsml:value>
+<dsml:value>April Danielle Thacker</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Learning Technologies Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1300673</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Danielle</dsml:value>
+<dsml:value>April</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Danielle Thacker</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Thacker</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=811848,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>homePhone</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>rdickert@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402314810</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Computer-Integrated Learning Spaces$Derring Hall 2096 Virginia Tech$1405 Perry Street$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0711</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>M</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Robert M Dickert</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>rdickert</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Director, Computer-Integrated Learning Spaces</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>rdickert</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>811848</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Robert</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Robert M Dickert</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Dickert</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=865017,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localMobile</dsml:value>
+<dsml:value>labeledURI</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>bbroniak@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402314908</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+TLOS$2220E Torgersen Hall$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Thomas</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Brian Thomas Broniak</dsml:value>
+<dsml:value>Brian Broniak</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>bbroniak</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Senior Director, Learning Systems</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>bbroniak</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>865017</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Brian</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Brian Broniak</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Broniak</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1577310,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mail</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312131</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>lacox@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Torgersen Hall 3060 MC 0292$620 Drillfield Drive$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Alenda</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Larry Alenda Cox II</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Instructional Designer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>lacox</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>lacox</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1577310</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Larry</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Larry Alenda Cox II</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Cox</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1208754,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>homeMobile</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>homePostalAddress</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312309</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>judy.alford@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Torgersen Hall 3210B$620 Drillfield Drive$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>U</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Judy U Alford</dsml:value>
+<dsml:value>Judy Alford</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Business Manager</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1208754</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Judy</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Judy Alford</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Alford</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1316570,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402318981</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>wesbishop@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0120</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Tech-enhanced Learning and OS$1185 Perry St Whittemore Hall 289$Blacksburg, VA 24061
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Wesley Bishop</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Media Manager</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1316570</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Wesley</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Wesley Bishop</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Bishop</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1909205,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402315997</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>igriffin@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 2210A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>C</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Ian C Griffin</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Assistant Director of Training and Program Advancement
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1909205</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Ian</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Ian C Griffin</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Griffin</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1550696,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402319227</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>connellc@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall, 1200B, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Amie</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Caroline Amie Connell</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>User Support Specialist</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1550696</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Caroline</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Caroline Amie Connell</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Connell</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1141298,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402311253</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>eric.gilmore@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Networked Knowledge Collaboration Services$Torgersen Hall 2220D, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Eric Gilmore</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Assistant Director, Systems Integration Web Development
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uupid">
+<dsml:value>egilmore</dsml:value>
+</dsml:attr>
+<dsml:attr name="authId">
+<dsml:value>egilmore</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1141298</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Eric</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Eric Gilmore</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>TRUE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Gilmore</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1979084,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312069</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>gerald84@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0711</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Derring Hall 2096 Virginia Tech$1405 Perry Street$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>Allen</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Gerald Allen Peterson</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Computer-Integrated Classroom Administrator</dsml:value>
+</dsml:attr>
+<dsml:attr name="localPostalAddress">
+<dsml:value>
+3433 Brandywine Ave$Roanoke, VA 24018$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1979084</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Gerald</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Gerald Allen Peterson</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Peterson</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1935981,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402312339</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>gburns1@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$Torgersen Hall 1200A, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Gary Burns</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Senior Director of Support Services</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1935981</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Gary</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Gary Burns</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Burns</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1383666,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>kensler@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="middleName">
+<dsml:value>A</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Jonathan A Kensler</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Application Developer</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1383666</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Jonathan</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Jonathan A Kensler</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Kensler</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=1765010,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>mail</dsml:value>
+<dsml:value>mailPreferredAddress</dsml:value>
+<dsml:value>mailAccount</dsml:value>
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>mailForwardingAddress</dsml:value>
+<dsml:value>mailAlias</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402315149</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>pakdel@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0292</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enhanced Learning and Online Strategies$2040 Torgersen Hall, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Ali Pakdel</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>Distance Learning Tech</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>1765010</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Ali</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Ali Pakdel</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Pakdel</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+<dsml:entry dn="uid=2069550,ou=People,dc=vt,dc=edu">
+<dsml:objectclass>
+<dsml:oc-value>virginiaTechPerson</dsml:oc-value>
+</dsml:objectclass>
+<dsml:attr name="suppressedAttribute">
+<dsml:value>localPostalAddress</dsml:value>
+<dsml:value>uupid</dsml:value>
+<dsml:value>authId</dsml:value>
+<dsml:value>localPhone</dsml:value>
+</dsml:attr>
+<dsml:attr name="telephoneNumber">
+<dsml:value>5402313272</dsml:value>
+</dsml:attr>
+<dsml:attr name="mail">
+<dsml:value>mnichol1@vt.edu</dsml:value>
+</dsml:attr>
+<dsml:attr name="mailStop">
+<dsml:value>0272</dsml:value>
+</dsml:attr>
+<dsml:attr name="postalAddress">
+<dsml:value>
+Technology-enchanced Learning and Online Strategies$Torgersen Hall 2020C, Virginia Tech$620 Drillfield Drive$Blacksburg, VA 24061$United States
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="cn">
+<dsml:value>Mark Nichols</dsml:value>
+</dsml:attr>
+<dsml:attr name="title">
+<dsml:value>
+Sr. Dir. of Universal Design and Accessible Technologies
+</dsml:value>
+</dsml:attr>
+<dsml:attr name="uid">
+<dsml:value>2069550</dsml:value>
+</dsml:attr>
+<dsml:attr name="givenName">
+<dsml:value>Mark</dsml:value>
+</dsml:attr>
+<dsml:attr name="displayName">
+<dsml:value>Mark Nichols</dsml:value>
+</dsml:attr>
+<dsml:attr name="suppressDisplay">
+<dsml:value>FALSE</dsml:value>
+</dsml:attr>
+<dsml:attr name="sn">
+<dsml:value>Nichols</dsml:value>
+</dsml:attr>
+<dsml:attr name="departmentNumber">
+<dsml:value>027200</dsml:value>
+</dsml:attr>
+<dsml:attr name="department">
+<dsml:value>TLOS</dsml:value>
+</dsml:attr>
+</dsml:entry>
+</dsml:directory-entries>
+</dsml:dsml>
